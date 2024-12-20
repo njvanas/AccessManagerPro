@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+*.pot
+
+# Dependency directories
+node_modules/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment Variables
+.env
+
+# Build output
+dist/
+build/
+
+# Static files
+staticfiles/
+media/
+
+# Django specific
+db.sqlite3
+
+# Docker specific
+.dockerignore
+docker-compose.override.yml
+
+# Additional files to ignore
+*.swp
+.DS_Store
+.idea/
+.vscode/
