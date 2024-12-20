@@ -28,3 +28,13 @@ AccessManagerPro is a comprehensive solution for managing access requests to IT 
    ```bash
    git clone https://github.com/yourusername/AccessManagerPro.git
    cd AccessManagerPro
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Configure environment variables in .env.
+
+### Running the Application
+   To run the application locally:
+   ```bash
+   docker-compose up
