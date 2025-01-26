@@ -10,31 +10,8 @@ AccessManagerPro is a comprehensive solution for managing access requests to IT 
 - **Integration**: Compatible with Active Directory and Okta.
 
 ## Technology Stack
-- **Frontend**: React.js or Angular with Material-UI/Bootstrap.
-- **Backend**: Node.js/Express or Django.
-- **Database**: PostgreSQL or MongoDB.
+- **Frontend**: React.js Material-UI/Bootstrap.
+- **Backend**: Node.js/Express.
+- **Database**: PostgreSQL.
 - **Deployment**: Docker, Kubernetes, and CI/CD with GitHub Actions.
 - **Testing**: Jest, Cypress, and PyTest.
-
-## Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/)
-- [Docker](https://www.docker.com/)
-- [PostgreSQL](https://www.postgresql.org/)
-
-### Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/AccessManagerPro.git
-   cd AccessManagerPro
-2. Install dependencies:
-   ```bash
-   npm install
-
-3. Configure environment variables in .env.
-
-### Running the Application
-   To run the application locally:
-   ```bash
-   docker-compose up
