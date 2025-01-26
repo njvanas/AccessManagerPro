@@ -2,36 +2,23 @@
 logs
 *.log
 npm-debug.log*
-*.pot
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Dependency directories
-node_modules/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Environment Variables
-.env
-
-# Build output
-dist/
-build/
-
-# Static files
-staticfiles/
-media/
-
-# Django specific
-db.sqlite3
-
-# Docker specific
-.dockerignore
-docker-compose.override.yml
-
-# Additional files to ignore
-*.swp
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-.idea/
-.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
