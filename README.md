@@ -10,9 +10,9 @@ AccessManagerPro is a comprehensive solution for managing access requests to IT 
 - **Integration**: Compatible with Active Directory and Okta.
 
 ## Technology Stack
-- **Frontend**: React.js or Angular with Material-UI/Bootstrap.
-- **Backend**: Node.js/Express or Django.
-- **Database**: PostgreSQL or MongoDB.
+- **Frontend**: React.js Material-UI/Bootstrap.
+- **Backend**: Node.js/Express.
+- **Database**: PostgreSQL.
 - **Deployment**: Docker, Kubernetes, and CI/CD with GitHub Actions.
 - **Testing**: Jest, Cypress, and PyTest.
 
